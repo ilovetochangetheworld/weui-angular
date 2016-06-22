@@ -3,6 +3,11 @@
  * Copyright 2016 Tencent, Inc.
  * Licensed under the MIT license
  */
+ //px计算
+ @function px2rem($px){
+     $rem : 75px;
+     @return ($px/$rem) + rem;
+ }
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
