@@ -212,7 +212,7 @@ button.weui_btn_inline, button.weui_btn_mini, input.weui_btn_inline, input.weui_
   margin-left: 0.4rem; }
 
 .weui_btn_area {
-  margin: 1.17647em 0.4rem 0.3em; }
+  margin: 0.26667rem 0.4rem 0.3em; }
   .weui_btn_area.weui_btn_area_inline {
     display: flex; }
     .weui_btn_area.weui_btn_area_inline .weui_btn {
@@ -319,15 +319,15 @@ button.weui_btn_plain_default, input.weui_btn_plain_default {
     color: #D9D9D9;
     transform-origin: 0 0;
     transform: scaleY(0.5);
-    left: 15px; }
+    left: 0.4rem; }
   .weui_cell:first-child:before {
     display: none; }
 
 .weui_cells {
-  margin-top: 1.17647em;
+  margin-top: 0.26667rem;
   background-color: #FFFFFF;
-  line-height: 1.41176;
-  font-size: 17px;
+  line-height: 1.17333rem-0.53334rem/0.45333rem;
+  font-size: 0.45333rem;
   overflow: hidden;
   position: relative; }
   .weui_cells:before {
@@ -356,10 +356,10 @@ button.weui_btn_plain_default, input.weui_btn_plain_default {
 .weui_cells_title {
   margin-top: .77em;
   margin-bottom: .3em;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
   color: #888;
-  font-size: 14px; }
+  font-size: 0.37333rem; }
   .weui_cells_title + .weui_cells {
     margin-top: 0; }
 
@@ -368,10 +368,10 @@ button.weui_btn_plain_default, input.weui_btn_plain_default {
   color: #888;
   padding-left: 15px;
   padding-right: 15px;
-  font-size: 14px; }
+  font-size: 0.37333rem; }
 
 .weui_cell {
-  padding: 10px 15px;
+  padding: 0.26667rem 0.4rem;
   position: relative;
   display: flex;
   align-items: center; }
@@ -442,7 +442,7 @@ button.weui_btn_plain_default, input.weui_btn_plain_default {
 
 .weui_label {
   display: block;
-  width: 105px;
+  width: 2.8rem;
   word-wrap: break-word;
   word-break: break-all; }
 
@@ -454,8 +454,8 @@ button.weui_btn_plain_default, input.weui_btn_plain_default {
   background-color: transparent;
   font-size: inherit;
   color: inherit;
-  height: 1.41176em;
-  line-height: 1.41176; }
+  height: 1.17333rem-0.53334rem/0.45333remem;
+  line-height: 1.17333rem-0.53334rem/0.45333rem; }
   .weui_input::-webkit-outer-spin-button, .weui_input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0; }
@@ -521,7 +521,7 @@ button.weui_btn_plain_default, input.weui_btn_plain_default {
     top: -2px;
     position: absolute;
     top: 50%;
-    right: 15px;
+    right: 0.4rem;
     margin-top: -3px; }
 
 .weui_select {
@@ -532,10 +532,10 @@ button.weui_btn_plain_default, input.weui_btn_plain_default {
   width: 100%;
   font-size: inherit;
   height: 43px;
-  line-height: 44px;
+  line-height: 1.17333rem;
   position: relative;
   z-index: 1;
-  padding-left: 15px; }
+  padding-left: 0.4rem; }
 
 .weui_cell_select {
   padding: 0; }
@@ -554,7 +554,7 @@ button.weui_btn_plain_default, input.weui_btn_plain_default {
     top: -2px;
     position: absolute;
     top: 50%;
-    right: 15px;
+    right: 0.4rem;
     margin-top: -3px; }
 
 .weui_select {
@@ -565,15 +565,15 @@ button.weui_btn_plain_default, input.weui_btn_plain_default {
   width: 100%;
   font-size: inherit;
   height: 43px;
-  line-height: 44px;
+  line-height: 1.17333rem;
   position: relative;
   z-index: 1;
-  padding-left: 15px; }
+  padding-left: 0.4rem; }
 
 .weui_select_before {
-  padding-right: 15px; }
+  padding-right: 0.4rem; }
   .weui_select_before .weui_select {
-    width: 105px;
+    width: 2.8rem;
     box-sizing: border-box; }
   .weui_select_before .weui_cell_hd {
     position: relative; }
@@ -601,10 +601,10 @@ button.weui_btn_plain_default, input.weui_btn_plain_default {
       top: -2px;
       position: absolute;
       top: 50%;
-      right: 15px;
+      right: 0.4rem;
       margin-top: -3px; }
   .weui_select_before .weui_cell_bd {
-    padding-left: 15px; }
+    padding-left: 0.4rem; }
     .weui_select_before .weui_cell_bd:after {
       display: none; }
 
@@ -625,7 +625,7 @@ button.weui_btn_plain_default, input.weui_btn_plain_default {
     top: -2px;
     position: absolute;
     top: 50%;
-    right: 15px;
+    right: 0.4rem;
     margin-top: -3px; }
 
 .weui_select {
@@ -636,13 +636,13 @@ button.weui_btn_plain_default, input.weui_btn_plain_default {
   width: 100%;
   font-size: inherit;
   height: 43px;
-  line-height: 44px;
+  line-height: 1.17333rem;
   position: relative;
   z-index: 1;
-  padding-left: 15px; }
+  padding-left: 0.4rem; }
 
 .weui_select_after {
-  padding-left: 15px; }
+  padding-left: 0.4rem; }
   .weui_select_after .weui_select {
     padding-left: 0; }
 
@@ -652,12 +652,12 @@ button.weui_btn_plain_default, input.weui_btn_plain_default {
   padding-bottom: 0; }
   .weui_vcode .weui_cell_ft img {
     margin-left: 5px;
-    height: 44px;
+    height: 1.17333rem;
     vertical-align: middle; }
 
 .weui_cell_switch {
-  padding-top: 6px;
-  padding-bottom: 6px; }
+  padding-top: 1.17333rem-32px/2;
+  padding-bottom: 1.17333rem-32px/2; }
 
 .weui_switch {
   appearance: none;
@@ -706,7 +706,7 @@ button.weui_btn_plain_default, input.weui_btn_plain_default {
     font-size: 1em; }
 
 .weui_uploader_bd {
-  margin-bottom: -4px;
+  margin-bottom: 0.4rem-0.26667rem9px;
   margin-right: -9px;
   overflow: hidden; }
 
@@ -803,7 +803,7 @@ button.weui_btn_inline, button.weui_btn_mini, input.weui_btn_inline, input.weui_
   margin-left: 0.4rem; }
 
 .weui_btn_area {
-  margin: 1.17647em 0.4rem 0.3em; }
+  margin: 0.26667rem 0.4rem 0.3em; }
   .weui_btn_area.weui_btn_area_inline {
     display: flex; }
     .weui_btn_area.weui_btn_area_inline .weui_btn {

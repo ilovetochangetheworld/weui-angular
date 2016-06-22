@@ -1,7 +1,4 @@
-@function px2rem($px){
-    $rem : 75px;
-    @return ($px/$rem) + rem;
-}
+@import "../../tool.scss";
 // namespace
 $weui_ns: 'weui_';
 
