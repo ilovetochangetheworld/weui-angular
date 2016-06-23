@@ -1,5 +1,6 @@
 ﻿@import "../../base/fn";
 
+
 .#{$weui_ns}cell {
     // onepx
     position: relative;
@@ -30,6 +31,11 @@
     &:after {
         @include setBottomLine($weuiCellBorderColor);
     }
+}
+.#{$weui_ns}cell_hd img{
+  width:px2rem(40px);
+  margin-right:px2rem(10px);
+  display:block
 }
 
 .#{$weui_ns}cells_title {

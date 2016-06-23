@@ -11,5 +11,5 @@ $weuiCellHeight: px2rem(88px);
 $weuiCellFontSize:px2rem(34px);
 $weuiCellTipsFontSize:px2rem(28px);
 
-$weuiCellLineHeight: ($weuiCellHeight - 2 * $weuiCellGapV) / $weuiCellFontSize; // 高度为44px，减去上下padding的行高
+$weuiCellLineHeight: px2rem(68px); // 高度为44px，减去上下padding的行高
 $weuiCellsMarginTop: px2rem(20px);
