@@ -512,13 +512,13 @@ button.weui_btn_plain_default, input.weui_btn_plain_default {
 .weui_cell_select {
   padding: 0; }
   .weui_cell_select .weui_select {
-    padding-right: 30px; }
+    padding-right: 0.8rem; }
   .weui_cell_select .weui_cell_bd:after {
     content: " ";
     display: inline-block;
-    height: 6px;
-    width: 6px;
-    border-width: 2px 2px 0 0;
+    height: 0.16rem;
+    width: 0.16rem;
+    border-width: 0.05333rem 0.05333rem 0 0;
     border-color: #C8C8CD;
     border-style: solid;
     transform: rotate(45deg);
@@ -527,7 +527,7 @@ button.weui_btn_plain_default, input.weui_btn_plain_default {
     position: absolute;
     top: 50%;
     right: 0.4rem;
-    margin-top: -3px; }
+    margin-top: -0.08rem; }
 
 .weui_select {
   -webkit-appearance: none;
@@ -536,7 +536,7 @@ button.weui_btn_plain_default, input.weui_btn_plain_default {
   background-color: transparent;
   width: 100%;
   font-size: inherit;
-  height: 43px;
+  height: 1.14667rem;
   line-height: 1.17333rem;
   position: relative;
   z-index: 1;
@@ -545,13 +545,13 @@ button.weui_btn_plain_default, input.weui_btn_plain_default {
 .weui_cell_select {
   padding: 0; }
   .weui_cell_select .weui_select {
-    padding-right: 30px; }
+    padding-right: 0.8rem; }
   .weui_cell_select .weui_cell_bd:after {
     content: " ";
     display: inline-block;
-    height: 6px;
-    width: 6px;
-    border-width: 2px 2px 0 0;
+    height: 0.16rem;
+    width: 0.16rem;
+    border-width: 0.05333rem 0.05333rem 0 0;
     border-color: #C8C8CD;
     border-style: solid;
     transform: rotate(45deg);
@@ -560,7 +560,7 @@ button.weui_btn_plain_default, input.weui_btn_plain_default {
     position: absolute;
     top: 50%;
     right: 0.4rem;
-    margin-top: -3px; }
+    margin-top: -0.08rem; }
 
 .weui_select {
   -webkit-appearance: none;
@@ -569,7 +569,7 @@ button.weui_btn_plain_default, input.weui_btn_plain_default {
   background-color: transparent;
   width: 100%;
   font-size: inherit;
-  height: 43px;
+  height: 1.14667rem;
   line-height: 1.17333rem;
   position: relative;
   z-index: 1;
@@ -596,9 +596,9 @@ button.weui_btn_plain_default, input.weui_btn_plain_default {
     .weui_select_before .weui_cell_hd:before {
       content: " ";
       display: inline-block;
-      height: 6px;
-      width: 6px;
-      border-width: 2px 2px 0 0;
+      height: 0.16rem;
+      width: 0.16rem;
+      border-width: 0.05333rem 0.05333rem 0 0;
       border-color: #C8C8CD;
       border-style: solid;
       transform: rotate(45deg);
@@ -607,7 +607,7 @@ button.weui_btn_plain_default, input.weui_btn_plain_default {
       position: absolute;
       top: 50%;
       right: 0.4rem;
-      margin-top: -3px; }
+      margin-top: -0.08rem; }
   .weui_select_before .weui_cell_bd {
     padding-left: 0.4rem; }
     .weui_select_before .weui_cell_bd:after {
@@ -616,13 +616,13 @@ button.weui_btn_plain_default, input.weui_btn_plain_default {
 .weui_cell_select {
   padding: 0; }
   .weui_cell_select .weui_select {
-    padding-right: 30px; }
+    padding-right: 0.8rem; }
   .weui_cell_select .weui_cell_bd:after {
     content: " ";
     display: inline-block;
-    height: 6px;
-    width: 6px;
-    border-width: 2px 2px 0 0;
+    height: 0.16rem;
+    width: 0.16rem;
+    border-width: 0.05333rem 0.05333rem 0 0;
     border-color: #C8C8CD;
     border-style: solid;
     transform: rotate(45deg);
@@ -631,7 +631,7 @@ button.weui_btn_plain_default, input.weui_btn_plain_default {
     position: absolute;
     top: 50%;
     right: 0.4rem;
-    margin-top: -3px; }
+    margin-top: -0.08rem; }
 
 .weui_select {
   -webkit-appearance: none;
@@ -640,7 +640,7 @@ button.weui_btn_plain_default, input.weui_btn_plain_default {
   background-color: transparent;
   width: 100%;
   font-size: inherit;
-  height: 43px;
+  height: 1.14667rem;
   line-height: 1.17333rem;
   position: relative;
   z-index: 1;
