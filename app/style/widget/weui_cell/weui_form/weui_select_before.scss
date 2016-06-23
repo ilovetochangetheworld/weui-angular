@@ -14,12 +14,12 @@
         }
         &:before{
             content: " ";
-            @include setArrow_Wap(right, 6px, #C8C8CD, 2px);
+            @include setArrow_Wap(right, px2rem(12px), #C8C8CD, px2rem(4px));
 
             position: absolute;
             top: 50%;
             right: $weuiCellGapH;
-            margin-top: -3px;
+            margin-top: px2rem(-6px);
         }
     }
     .#{$weui_ns}cell_bd {

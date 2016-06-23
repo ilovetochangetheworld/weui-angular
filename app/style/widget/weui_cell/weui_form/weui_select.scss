@@ -3,7 +3,7 @@
 .#{$weui_ns}cell_select {
     padding: 0;
     .#{$weui_ns}select {
-        padding-right: 30px;
+        padding-right: px2rem(60px);
     }
     .#{$weui_ns}access_icon {
         // position: absolute;
@@ -14,12 +14,12 @@
     .#{$weui_ns}cell_bd{
         &:after{
             content: " ";
-            @include setArrow_Wap(right, 6px, #C8C8CD, 2px);
+            @include setArrow_Wap(right, px2rem(12px), #C8C8CD, px2rem(4px));
 
             position: absolute;
             top: 50%;
             right: $weuiCellGapH;
-            margin-top: -3px;
+            margin-top: px2rem(-6px);
         }
     }
 }
@@ -31,7 +31,7 @@
     background-color: transparent;
     width: 100%;
     font-size: inherit;
-    height: 43px;
+    height: px2rem(86px);
     line-height: $weuiCellHeight;
     position: relative;
     z-index: 1;

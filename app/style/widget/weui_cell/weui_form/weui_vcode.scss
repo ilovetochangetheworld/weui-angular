@@ -6,7 +6,7 @@
     padding-bottom: 0;
     .#{$weui_ns}cell_ft {
         img {
-            margin-left: 5px;
+            margin-left: px2rem(10px);
             height: $weuiCellHeight;
             vertical-align: middle;
         }

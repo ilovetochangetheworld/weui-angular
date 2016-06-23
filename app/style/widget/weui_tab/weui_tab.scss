@@ -10,7 +10,7 @@
 .#{$weui_ns}tab_bd {
     box-sizing: border-box;
     height: 100%;
-    padding-bottom: 55px;
+    padding-bottom: px2rem(110px);
     overflow: auto;
     -webkit-overflow-scrolling: touch;
 }

@@ -31,6 +31,6 @@ $itemActiveColor: #E4E4E4;
 $pageDefaultBackgroundColor:#EFEFF4;
 
 // gap
-$gap5:5px;
-$gap10:10px;
-$gap15:15px;
+$gap5:px2rem(10px);
+$gap10:px2rem(20px);
+$gap15:px2rem(30px);
