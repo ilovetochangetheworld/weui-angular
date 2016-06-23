@@ -6,6 +6,9 @@ html {
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
+html, body {
+  height: 100%; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -15,6 +18,30 @@ a img {
 
 a {
   text-decoration: none; }
+
+.view-animate-container {
+  position: relative;
+  min-height: 100%;
+  width: 10rem; }
+
+.view-animate.ng-enter, .view-animate.ng-leave {
+  transition: all ease 0.20s;
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+
+.view-animate.ng-enter {
+  left: 100%; }
+
+.view-animate.ng-enter.ng-enter-active {
+  left: 0; }
+
+.view-animate.ng-leave.ng-leave-active {
+  left: -100%; }
 
 @font-face {
   font-weight: normal;

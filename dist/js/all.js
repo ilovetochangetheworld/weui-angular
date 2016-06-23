@@ -1,7 +1,7 @@
 (function () {
   'use strict';
   angular
-    .module('app', ['ngFileUpload', 'ngCookies', 'ui.router'])
+    .module('app', ['ngFileUpload', 'ngCookies', 'ui.router','ngAnimate'])
     .config(config);
 
   function config($stateProvider, $urlRouterProvider, $httpProvider) {
