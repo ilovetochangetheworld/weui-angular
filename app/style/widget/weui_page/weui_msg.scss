@@ -11,15 +11,15 @@
 
     .#{$weui_ns}text_area {
         margin-bottom: $weuiMsgTextGap;
-        padding:0 20px;
+        padding:0 px2rem(40px);
     }
     .#{$weui_ns}msg_title {
         margin-bottom: $weuiMsgTitleGap;
         font-weight: 400;
-        font-size: 20px;
+        font-size: px2rem(40px);
     }
     .#{$weui_ns}msg_desc {
-        font-size: 14px;
+        font-size: px2rem(28px);
         color: $globalDescColor;
     }
 
@@ -29,7 +29,7 @@
 
     .#{$weui_ns}extra_area {
         margin-bottom: $weuiMsgExtraAreaGap;
-        font-size:14px;
+        font-size:px2rem(28px);
         color:$globalTextColor;
         a {
             color:$globalLinkColor;

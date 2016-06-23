@@ -5,7 +5,7 @@ $grayColor: #999999;
 
 .#{$weui_ns}panel {
     background-color: #FFFFFF;
-    margin-top: 10px;
+    margin-top: px2rem(20px);
     &:first-child {
         margin-top: 0;
     }
@@ -21,24 +21,24 @@ $grayColor: #999999;
 }
 
 .#{$weui_ns}panel_hd {
-    padding: 14px 15px 10px;
+    padding: px2rem(28px) px2rem(30px) px2rem(20px);
     color: $grayColor;
-    font-size: 13px;
+    font-size: px2rem(26px);
     position: relative;
     &:after {
         @include setBottomLine($lineColor);
-        left: 15px;
+        left: px2rem(30px);
     }
 }
 
 .#{$weui_ns}panel_ft {
-    padding: 10px 15px 12px;
+    padding:px2rem(20px) px2rem(30px) px2rem(24px);
     color: $grayColor;
-    font-size: 14px;
+    font-size: px2rem(28px);
     position: relative;
     &:before {
         @include setTopLine($lineColor);
-        left: 15px;
+        left: px2rem(30px);
     }
     .#{$weui_ns}panel_access & {
         display: block;
@@ -49,11 +49,11 @@ $grayColor: #999999;
         }
         &:after {
             content: " ";
-            @include setArrow_Wap(right, 6px, #C7C7CC, 2px);
+            @include setArrow_Wap(right, px2rem(12px), #C7C7CC, px2rem(4px));
             position: absolute;
-            right: 15px;
+            right: px2rem(30px);
             top: 50%;
-            margin-top: -4px;
+            margin-top: px2rem(-8px);
         }
     }
 }

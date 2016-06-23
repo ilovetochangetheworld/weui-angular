@@ -15,7 +15,7 @@
 .#{$weui_ns}tabbar_item {
     display: block;
     flex: 1;
-    padding: 7px 0 0;
+    padding: px2rem(14px) 0 0;
     -webkit-tap-highlight-color: transparent;
 
     &.#{$weui_ns}bar_item_on {
@@ -27,8 +27,8 @@
 
 .#{$weui_ns}tabbar_icon {
     margin: 0 auto;
-    width: 24px;
-    height: 24px;
+    width: px2rem(28px);
+    height: px2rem(28px);
 
     img {
         display: block;
@@ -37,12 +37,12 @@
     }
 
     & + .#{$weui_ns}tabbar_label {
-        margin-top: 5px;
+        margin-top: px2rem(10px);
     }
 }
 
 .#{$weui_ns}tabbar_label {
     text-align: center;
     color: $globalTextColor;
-    font-size: 12px;
+    font-size: px2rem(24px);
 }

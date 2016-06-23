@@ -15,7 +15,7 @@
 .#{$weui_ns}grid {
     position: relative;
     float: left;
-    padding: 20px 10px;
+    padding: px2rem(40px) px2rem(20px);
     width: 100% / $weuiGridColumnCount;
     box-sizing: border-box;
 
@@ -43,7 +43,7 @@
     }
 
     & + .#{$weui_ns}grid_label {
-        margin-top: 5px;
+        margin-top: px2rem(10px);
     }
 }
 

@@ -4,11 +4,11 @@ $lineColor: #E5E5E5;
 $grayColor: #999999;
 
 .#{$weui_ns}media_box {
-    padding: 15px;
+    padding: px2rem(30px);
     position: relative;
     &:before {
         @include setTopLine($lineColor);
-        left: 15px;
+        left: px2rem(30px);
     }
     &:first-child {
         &:before {
@@ -17,26 +17,26 @@ $grayColor: #999999;
     }
     .#{$weui_ns}media_title {
         font-weight: 400;
-        font-size: 17px;
+        font-size: px2rem(34px);
         @include ellipsis();
         word-wrap: break-word;
         word-break: break-all;
     }
     .#{$weui_ns}media_desc {
         color: $grayColor;
-        font-size: 13px;
+        font-size: px2rem(23px);
         line-height: 1.2;
         @include ellipsisLn(2);
     }
 
     &.#{$weui_ns}media_text {
         .#{$weui_ns}media_title {
-            margin-bottom: 8px;
+            margin-bottom: px2rem(16px);
         }
         .#{$weui_ns}media_info {
-            margin-top: 15px;
-            padding-bottom: 5px;
-            font-size: 13px;
+            margin-top: px2rem(30px);
+            padding-bottom: px2rem(10px);
+            font-size: px2rem(26px);
             color: #CECECE;
             line-height: 1em;
             list-style: none;
@@ -56,9 +56,9 @@ $grayColor: #999999;
         align-items: center;
         .#{$weui_ns}media_hd {
             margin-right: .8em;
-            width: 60px;
-            height: 60px;
-            line-height: 60px;
+            width: px2rem(120px);
+            height: px2rem(120px);
+            line-height: px2rem(120px);
             text-align: center;
         }
         .#{$weui_ns}media_appmsg_thumb {
