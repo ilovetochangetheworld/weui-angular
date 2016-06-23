@@ -190,7 +190,7 @@
             //显示3秒后消失
             $interval(function() {
                 vm.toastHide = 0;
-            }, 11113000, 1);
+            }, 3000, 1);
         };
 
         vm.showLoadingToast = function() {
@@ -199,7 +199,7 @@
             //显示3秒后消失
             $interval(function() {
                 vm.loadingToastHide = 0;
-            }, 1113000, 1);
+            }, 3000, 1);
         };
 
     }
